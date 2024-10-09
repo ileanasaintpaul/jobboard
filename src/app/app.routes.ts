@@ -1,8 +1,8 @@
 import { Component } from "@angular/core";
 import { Routes } from "@angular/router";
-import { HomepageComponent } from "./homepage/homepage.component";
-import { LoginPageComponent } from "./login-page/login-page.component";
-import { SignupPageComponent } from "./signup-page/signup-page.component";
+import { HomepageComponent } from "./pages/homepage/homepage.component";
+import { LoginPageComponent } from "./pages/login-page/login-page.component";
+import { SignupPageComponent } from "./pages/signup-page/signup-page.component";
 
 export const routes: Routes = [
 	{ path: "", component: HomepageComponent },

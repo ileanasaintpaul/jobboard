@@ -1,10 +1,6 @@
 @import "../../styles.scss";
 
 #sign-in {
-	display: flex;
-	flex-direction: column;
-	gap: 5rem;
-
 	#form {
 		display: flex;
 		flex-direction: column;
@@ -21,9 +17,9 @@
 			flex-direction: column;
 			gap: 2rem;
 			align-items: center;
-			margin: 1rem;
 			max-width: 30rem;
 			width: 90%;
+			transform: translateY(50%);
 		}
 	}
 
