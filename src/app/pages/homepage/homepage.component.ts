@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
-import { NavbarComponent } from "../navbar/navbar.component";
-import { AdvertisementComponent } from "../advertisement/advertisement.component";
+import { NavbarComponent } from "../../components/navbar/navbar.component";
+import { AdvertisementComponent } from "../../advertisement/advertisement.component";
 
 @Component({
 	selector: "app-homepage",

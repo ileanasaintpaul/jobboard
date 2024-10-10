@@ -1,0 +1,40 @@
+@import "../../styles.scss";
+
+#sign-in {
+	#form {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		div {
+			display: flex;
+			flex-direction: column;
+			width: 100%;
+		}
+
+		form {
+			display: flex;
+			flex-direction: column;
+			gap: 2rem;
+			align-items: center;
+			max-width: 30rem;
+			width: 90%;
+			transform: translateY(50%);
+		}
+	}
+
+	p {
+		color: $main-color;
+		text-align: end;
+		margin: 1rem;
+
+		a {
+			background: none;
+			box-shadow: none;
+			color: $main-color;
+			border: none;
+			padding: 0;
+			margin: 0;
+		}
+	}
+}

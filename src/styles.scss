@@ -25,7 +25,7 @@ button {
 	background-color: $main-color;
 	color: $white;
 	padding-block: 0.5rem;
-	padding-inline: 1rem;
+	padding-inline: 1.5rem;
 	border-radius: 50px;
 	border: 1px solid $main-color;
 	transition: 0.5s ease, transform 0.5s ease;
@@ -37,4 +37,11 @@ button:hover {
 	background-color: $white;
 	border: 1px solid $main-color;
 	color: $main-color;
+}
+
+input {
+	border-radius: 10px;
+	border: 1px solid $lighter-grey;
+	padding-inline: 1rem;
+	padding-block: 0.5rem;
 }
