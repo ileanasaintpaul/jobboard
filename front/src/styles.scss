@@ -1,0 +1,47 @@
+//variables for colors
+$main-color: #4037e6;
+$secondary-color: #d3ddff;
+$lighter-color: #eaeefd;
+
+$white: #fff;
+$dark: #000;
+
+$grey: #474747;
+$lighter-grey: #a7a7a7;
+$darker: #2e2c39;
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Jost", sans-serif;
+}
+
+body {
+	background-color: $lighter-color;
+}
+
+a,
+button {
+	background-color: $main-color;
+	color: $white;
+	padding-block: 0.5rem;
+	padding-inline: 1.5rem;
+	border-radius: 50px;
+	border: 1px solid $main-color;
+	transition: 0.5s ease, transform 0.5s ease;
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+a:hover,
+button:hover {
+	background-color: $white;
+	border: 1px solid $main-color;
+	color: $main-color;
+}
+
+input {
+	border-radius: 10px;
+	border: 1px solid $lighter-grey;
+	padding-inline: 1rem;
+	padding-block: 0.5rem;
+}
